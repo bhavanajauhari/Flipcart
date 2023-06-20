@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="header">
+
+        <h1><img src="images/1217101_flipkart_icon.png" style="height: 80px; padding-left: 40px; padding-top: 10px;"></h1>
+        <div class="nametag"><p><b>Flipkart</b></p></div>
+
+        
+        <div class="searchbar">
+            
+            <label for="search" class="search_text"><b>Search:</b></label>
+            <input id="search" type="text" placeholder="Search here" onkeyup="search(this.value)">
+            
+        </div>
+        <div class="category">
+
+            <lable for="option"  class="catname"><b>Categories:</b></lable>
+            <select id="option" onchange="select(this.value)"></select><br><br>
+        </div>
+        <div class="pricebar">
+            <label for="price" class="price_text"><b>Prices:</b></label>
+            <select id="price" onchange="price(this.value)" >
+                <!-- <option >Select Order</option> -->
+                <option id="ltoh">Low to High</option>
+                <option id="htol">High to Low</option>
+            </select>
+
+        </div>
+    </div>
+<div id="load">Loading....</div><br><br>
+
+
+
+<div id="card">
+</div>
+<!-- <select id="rate"></select> -->
+</body>
+</html>
