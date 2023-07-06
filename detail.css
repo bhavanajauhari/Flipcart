@@ -1,0 +1,28 @@
+.detailcarddata{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+    /* padding-left: 100px; */
+    /* padding-top: 100px; */
+    /* flex-direction: row; */
+}
+#detailcardimage{
+   
+    width: 400px;
+    height: 400px;
+    /* margin: 100px; */
+    overflow: hidden;
+    margin: 0 auto;
+    
+
+}
+
+/* .detailimage:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);} */
+
+    .details{
+        padding-top: 100px;
+    }

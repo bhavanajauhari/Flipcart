@@ -1,0 +1,217 @@
+*{
+    background-color: whitesmoke;
+}
+
+.quantity{
+    display: flex;
+    margin-left: 30px;
+    background-color: white;
+}
+.minus{
+border-radius: 50%;
+background-color: white;
+border: 2px solid;
+cursor: pointer;
+
+}
+.minus:hover{
+    color: white;
+    background-color: red;
+}
+.plus{
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: white;
+    border: 2px solid;
+    cursor: pointer;
+
+}
+.plus:hover{   
+    color: white;
+    background-color: green;
+}
+.num{
+    width: 30px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: white;
+    justify-content: center;
+   
+}
+
+.cutprice{
+
+    text-decoration: line-through;
+    background-color: white;
+    margin-left: 10px;
+}
+.newprice{
+    margin-left: 10px;
+    background-color: white;
+}
+
+
+.detailprice{
+    display: flex;
+    background-color: white;
+}
+#detailcardimage{
+    width: 180px;
+    height: 180px;
+    background-color: white;
+}
+.detailcarddata{
+    display: flex;
+    background-color: white;
+}
+.cart{
+    margin: 50px;
+    border: 3px solid blue;
+    padding: 30px;
+    width: 600px;
+    height: 300px;
+    border-radius: 7px;
+    box-shadow: 8px 8px 8px 8px rgba(26, 3, 202, 0.234);
+    background-color: white; 
+}
+.details{
+    margin-left: 30px;
+    background-color: white;
+}
+.save{
+    margin-left: 30px;
+    background-color: white;
+}
+.remove{
+    margin-left: 30px;
+    background-color: white;
+    
+}
+.order{
+    width: 300px;
+    height: 40px;
+    margin: 20px;
+    float: right;
+    background-color: rgb(223, 82, 12);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.order:hover{
+    background-color: rgb(192, 71, 10);
+}
+.date{
+    background-color: white;
+}
+.detailrate{
+    background-color: white;
+    margin-left: 10px;
+}
+.remove,.save{
+    cursor: pointer;
+}
+.remove:hover,.save:hover{
+    color: #2370f4;
+}
+._1AtVbE {
+    display: block;
+}
+.col-12-12 {
+    width: 100%;
+}
+.dimARw {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+._35mLK5 {
+    background: var(--color-white-bg);
+    border-radius: 2px;
+    min-height: 47px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+}
+._35mLK5 {
+    background: #fff;
+}
+._3aPjap, ._I_XQO {
+    border-bottom: 1px solid var(--color-grey-grade1);
+    font-size: var(--font-size-16);
+}
+._3aPjap {
+    display: block;
+    text-transform: uppercase;
+    padding: 13px 24px;
+    font-weight: var(--font-medium);
+    color: var(--color-grey-grade4);
+    min-height: 47px;
+    border-radius: 2px 2px 0 0;
+}
+._3aPjap, ._I_XQO {
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 16px;
+}
+._3aPjap {
+    font-weight: 500;
+    color: #878787;
+}
+._I_XQO {
+    padding: 0 24px;
+}
+
+div {
+    display: block;
+}
+._1MaUCb ._2SabxT {
+    max-width: 68%;
+}
+.fonts-loaded body, .fonts-loaded button, .fonts-loaded input, .fonts-loaded select, .fonts-loaded textarea {
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+}
+body, button, input, select, textarea {
+    font-family: Arial,sans-serif;
+    letter-spacing: -.2px;
+}
+body {
+    font-size: 14px;
+    background-color: #f1f3f6;
+    color: #212121;
+    line-height: 1.4;
+}
+._1MaUCb {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 20px 0;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+._1MaUCb ._2SabxT .nxl3SA {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+._3aPjap, ._I_XQO {
+    border-bottom: 1px solid var(--color-grey-grade1);
+    font-size: var(--font-size-16);
+}
+._3LxTgx {
+    border-top: 1px dashed #e0e0e0;
+    font-weight: 500;
+    font-size: 18px;
+}
+.amount{
+    position: absolute;
+    top: 50;
+    right: 50;
+}

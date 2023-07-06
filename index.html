@@ -21,11 +21,11 @@
         <div class="searchbar">
             
             <label for="search" class="search_text"><b>Search:</b></label>
-            <input id="search" type="text" placeholder="Search here" onkeyup="search(this.value)">
+            <input id="search" type="text" placeholder="Search here" onkeyup="search(this.value)"/>
             
         </div>
         <div class="category">
-
+<!-- <button type="button" onclick="Show()"></button> -->
             <lable for="option"  class="catname"><b>Categories:</b></lable>
             <select id="option" onchange="select(this.value)"></select><br><br>
         </div>
@@ -38,13 +38,16 @@
             </select>
 
         </div>
+        <div class="button"><button onclick="gotoCart()" class="btn">Go to Cart</button></div>
     </div>
-<div id="load">Loading....</div><br><br>
-
-
-
-<div id="card">
-</div>
+    <div id="load">Loading....</div><br><br>
+    
+    
+    
+    <div id="card">
+    </div>
 <!-- <select id="rate"></select> -->
 </body>
 </html>
+
+<button ></button> 
